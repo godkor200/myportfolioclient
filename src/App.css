@@ -1,0 +1,36 @@
+* {
+  font-family: "Noto Sans KR", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+#s1 {
+  animation-duration: 3s;
+  animation-name: slidein;
+  font-size: 50px;
+  display: grid;
+  align-items: center;
+}
+
+@keyframes slidein {
+  from {
+    margin-bottom: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-bottom: 0%;
+    width: 100%;
+  }
+}
+
+#s2 {
+  animation-duration: 3s;
+  animation-name: slidein;
+  align-items: flex-end;
+  animation-delay: 250ms;
+  font-size: 30px;
+  position: relative;
+  top: 0px;
+}
